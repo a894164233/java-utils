@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://baitaoblog.com:3306/mybloga?characterEncoding=UTF8&useUnicode=true&useSSL=false
+    username: root
+    password: 123456
+spring:
+  devtools:
+    restart:
+      additional-paths: src/main
+      enabled: true
+
